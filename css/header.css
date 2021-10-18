@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;  
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 40px;   
+    background: linear-gradient(to right,#D62201, #E15E0E );
+}
+.header p{
+    color:#fff;
+    padding: 10px;
+    font-size:10px;
+    font-weight: 100;
+    margin-left: 5px;
+    
+}
+
+@media (max-width:800px) {
+ 
+    .header{
+      width: 100%;
+    }
+}
